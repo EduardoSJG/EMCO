@@ -45,9 +45,9 @@
     </nav>
     <!-- Masthead-->
     <header class="masthead">
-        <div class="container">
+        <div class="container mt-n5">
             <a class=" masthead-subheading">
-                <img src="assets/img/logos/LOGO_EMCO.png" alt="EMCO logo" width="70%" style="margin-top: -100px" />
+                <img src="assets/img/logos/LOGO_EMCO.png" alt="EMCO logo" width="70%"/>
             </a>
             <div class="masthead-heading text-uppercase">Construcciones EMCO S.A. de C.V. ®</div>
             <a class="btn btn-primary btn-xl js-scroll-trigger small" href="#nosotros">Saber Más</a>
@@ -57,7 +57,7 @@
     <div class="row">
         <section class="row page-section" id="nosotros">
             <div class="col-md-4 nosotros-img"></div>
-            <div class="col-md-7 containerNos text-center">
+            <div class="col-md-7 containerNos text-center mt-n3">
                 <div class="text-center">
                     <h1 class="section-heading text-uppercase my-n4">Nosotros</h1>
                     <!--<h3 class="section-subheading text-muted"></h3>-->
@@ -145,7 +145,7 @@
     </div>
     <!-- Cobertura-->
     <section class="page-section bg-light" id="cobertura">
-        <div class="text-center mt-n3">
+        <div class="text-center mt-n4">
             <h2 class="section-heading text-uppercase">Nuestra Cobertura de Servicio</h2>
         </div>
         <div class="row mt-5">
@@ -242,7 +242,7 @@
 
     <!-- Servicios-->
     <section class="page-section my-2 bg-dark" id="services">
-        <div class="container ">
+        <div class="container mt-n4">
             <div class="text-center">
                 <h2 class="section-heading text-white text-uppercase">Servicios</h2>
             </div>
@@ -388,22 +388,20 @@
     <!-- Proyectos - Portfolio Grid-->
     <section class="page-section bg-light" id="portfolio">
         <div class="container">
-            <div class="text-center my-n4">
+            <div class="text-center mt-n5">
                 <h2 class="section-heading text-uppercase">NUESTROS PROYECTOS</h2>
             </div>
             <div class="row my-5">
-                <div class="col-lg-8 col-sm-6 mb-4">
+                <div class="col-lg-8 col-sm-6 mb-4 img-epoxicos">
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <div class="img-lg-y">
-                                <img class="img-fluid" src="assets/img/portfolio/BaseSilos/Captura13.PNG" alt="" />
-                            </div>
+                            <img class="img-fluid" src="assets/img/descargas/10.jpg" alt="Bases para Silos" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Bases para Silos</div>
+                            <div class="portfolio-caption-heading">Epóxicos</div>
                             <!--<div class="portfolio-caption-subheading text-muted">Barcel - 2016</div>-->
                         </div>
                     </div>
@@ -414,12 +412,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <div class="img-lg-y">
-                                <img class="img-fluid" src="assets/img/portfolio/AmpliacionNaves/Captura11_2.png" alt="" />
-                            </div>
+                            <img class="img-fluid" src="assets/img/descargas/24.jfif" alt="Naves de Producción" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Ampliación de Naves de Producción</div>
+                            <div class="portfolio-caption-heading">Obra Civil</div>
                             <!--<div class="portfolio-caption-subheading text-muted">Suandy - 2019</div>-->
                         </div>
                     </div>
@@ -428,74 +424,28 @@
                     <div class="portfolio-item">
                         <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                             <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/PisoConcreto/Captura8.PNG" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Acabado en Pisos de Concreto</div>
-                            <!--<div class="portfolio-caption-subheading text-muted">Tía Rosa - 2019</div>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/PisoEpoxico/Epoxico1.jpg" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Pisos Epóxicos en Producción</div>
-                            <!--<div class="portfolio-caption-subheading text-muted">Suandy - 2010</div>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                            <div class="portfolio-hover">
-                                <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/PisoEpoxico/Captura4.PNG" alt="" />
-                        </a>
-                        <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Pisos Epóxicos en Hospital</div>
-                            <!--<div class="portfolio-caption-subheading text-muted">Collins, Planta Ciprés - 2019</div>-->
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mb-4">
-                    <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal7">
-                            <div class="portfolio-hover">
                                 <div class="portfolio-hover-content">
                                     <i class="fas fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <div class="img-lg-y">
-                                <img class="img-fluid" src="assets/img/portfolio/EstructuraBarcel/EstructuraBarcel7.PNG" alt="" />
-                            </div>
+                            <img class="img-fluid" src="assets/img/descargas/29_2.jfif" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Estructura Barcel</div>
+                            <div class="portfolio-caption-heading">Mantenimiento</div>
                             <!--<div class="portfolio-caption-subheading text-muted">Barcel - 2016</div>-->
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-8 col-sm-6 mb-4">
                     <div class="portfolio-item">
-                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
+                        <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <div class="img-lg-y">
-                                <img class="img-fluid" src="assets/img/portfolio/LavadoTinas/Captura2_2.png" alt="" />
-                            </div>
+                            <img class="img-fluid" src="assets/img/descargas/27.jpg" alt="" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Cuarto de Lavado de Tinas</div>
+                            <div class="portfolio-caption-heading">Proyectos Arquitéctonicos</div>
                             <!--<div class="portfolio-caption-subheading text-muted">Bimbo - 2017</div>-->
                         </div>
                     </div>
@@ -506,7 +456,7 @@
     <!-- Capacitaciones-->
     <section class="page-section bg-dark" id="capacitacion">
         <div class="container">
-            <div class="text-center">
+            <div class="text-center mt-n4">
                 <h2 class="section-heading text-uppercase text-white">Capacitaciones</h2>
                 <h6 class="section-subheading text-almost-white">
                     Capacitación continua interna y externa para todo nuestro personal, cumpliendo con las <br />
@@ -575,7 +525,7 @@
 
     <!-- Clients-->
     <section class="page-section bg-light" id="clients">
-        <div class="container">
+        <div class="container mt-n4">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">NUESTROS CLIENTES</h2>
                 <div class="row">
@@ -829,117 +779,6 @@
             </div>
         </div>
     </div>
-    <!-- Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content bg-dark2">
-                <div id="carouselModal5" class="carousel slide" data-ride="carousel">
-                    <!-- Controles -->
-                    <a class="carousel-control-prev" href="#carouselModal5" role="button" data-slide="prev">
-                        <span class="fa-stack fa-5x">
-                            <i class="fas fa-chevron-left fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselModal5" role="button" data-slide="next">
-                        <span class="fa-stack fa-5x">
-                            <i class="fas fa-chevron-right fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                    <!-- Diapositivas -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PisoEpoxico/Captura1.PNG" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PisoEpoxico/Captura2.PNG" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PisoEpoxico/Captura3.PNG" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PisoEpoxico/Captura4.PNG" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PisoEpoxico/Captura5.PNG" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PisoEpoxico/Captura6.PNG" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/PisoEpoxico/Captura7.PNG" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 6-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content bg-dark2">
-                <div id="carouselModal6" class="carousel slide" data-ride="carousel">
-                    <!-- Controles -->
-                    <a class="carousel-control-prev" href="#carouselModal6" role="button" data-slide="prev">
-                        <span class="fa-stack fa-5x">
-                            <i class="fas fa-chevron-left fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselModal6" role="button" data-slide="next">
-                        <span class="fa-stack fa-5x">
-                            <i class="fas fa-chevron-right fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                    <!-- Diapositivas -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/LavadoTinas/Captura3.PNG" alt="" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/LavadoTinas/Captura2.PNG" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal 7-->
-    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content bg-dark2">
-                <div id="carouselModal7" class="carousel slide" data-ride="carousel">
-                    <!-- Controles -->
-                    <a class="carousel-control-prev" href="#carouselModal7" role="button" data-slide="prev">
-                        <span class="fa-stack fa-5x">
-                            <i class="fas fa-chevron-left fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselModal7" role="button" data-slide="next">
-                        <span class="fa-stack fa-5x">
-                            <i class="fas fa-chevron-right fa-stack-1x fa-inverse"></i>
-                        </span>
-                    </a>
-                    <!-- Diapositivas -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/EstructuraBarcel/EstructuraBarcel1.jpg" alt="" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/EstructuraBarcel/EstructuraBarcel2.jpg" alt="" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/EstructuraBarcel/EstructuraBarcel3.jpg" alt="" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/EstructuraBarcel/EstructuraBarcel4.PNG" alt="" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/EstructuraBarcel/EstructuraBarcel7.PNG" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -950,7 +789,7 @@
     <script src="assets/mail/contact_me.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-    <script src="tilt.jquery.js"></script>
+    <script src="js/tilt.jquery.js"></script>
 </body>
 
 </html>

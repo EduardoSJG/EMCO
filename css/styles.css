@@ -9910,7 +9910,7 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: var(--white);
-    background-image: url("../assets/img/header-bg.PNG");
+    background-image: url("../assets/img/descargas/01.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -9953,7 +9953,8 @@ header.masthead .masthead-heading {
 }
 
 #portfolio .portfolio-item {
-    max-width: 50rem;
+    max-width: 40rem;
+    min-height: 25rem;
     margin-left: auto;
     margin-right: auto;
 }
@@ -9971,11 +9972,8 @@ header.masthead .masthead-heading {
         margin-right: -5px;
     }
     #portfolio .portfolio-item img {
-        height: 250px;
-    }
-    #portfolio .portfolio-item .img-lg-y img {
-        width: 50rem;
-        height: 25.4rem;
+        height: 27.4rem;
+        width: max-content;
     }
 }
 
@@ -10286,7 +10284,7 @@ header.masthead .masthead-heading {
 
 section#contact {
     background-color: var(--dark);
-    background-image: url("../assets/img/footer-img.png");
+    background-image: url("../assets/img/descargas/12.jpg");
     background-size: cover;
 }
 
@@ -10393,7 +10391,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     .nosotros-img {
         margin: -6rem;
         margin-right: 6rem;
-        background-image: url("../assets/img/nosotros.PNG");
+        background-image: url("../assets/img/descargas/14.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
