@@ -58,7 +58,9 @@ function bs_input_file() {
     $(".input-file").before(
         function() {
             if (!$(this).prev().hasClass('input-ghost')) {
-                var element = $("<input id='archivo' type='file' class='input-ghost' style='visibility:hidden; height:0px;'>");
+                var element = $("<input id='archivo' type='file' class='input-ghost' " +
+                    "style='visibility:hidden; height:0px;' " +
+                    "data-validation-required-message='Ingresa tu cv en pdf.'>");
                 element.attr("name", $(this).attr("name"));
                 element.change(function() {
                     element.next(element).find('input').val((element.val()).split('\\').pop());

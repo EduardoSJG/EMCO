@@ -25,7 +25,7 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">EMCO</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">Construcciones EMCO</a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ml-1"></i>
@@ -47,7 +47,7 @@
     <header class="masthead">
         <div class="container mt-n5">
             <a class=" masthead-subheading">
-                <img src="assets/img/logos/LOGO_EMCO.png" alt="EMCO logo" width="70%"/>
+                <img src="assets/img/logos/LOGO_EMCO.png" alt="EMCO logo" width="70%" />
             </a>
             <div class="masthead-heading text-uppercase">Construcciones EMCO S.A. de C.V. ®</div>
             <a class="btn btn-primary btn-xl js-scroll-trigger small" href="#nosotros">Saber Más</a>
@@ -62,9 +62,9 @@
                     <h1 class="section-heading text-uppercase my-n4">Nosotros</h1>
                     <!--<h3 class="section-subheading text-muted"></h3>-->
                     <div class="text-muted my-5 text-justify txt-sz-120">
-                        <p>Construcciones EMCO S.A. de C.V. ® es una empresa dedicada al mantenimiento y obra civil
-                            Respaldados por más de 20 años de servicio cumpliendo con las necesidades de nuestros
-                            clientes que permitan tener clientes satisfechos</p>
+                        <p class="mb-1">Somos una empresa con 20 años de trayectoría en el mercado.</p>
+                        <p class="mb-1">Nos caracterizamos por la atención personalizada y la supervisión constante en la ejecución integral de obras y proyectos.</p>
+                        <p class="mb-1">Generamos confianza en todo lo que hacemos logrando que nuestros clientes nos recomienden y vuelvan a elegir</p>
                     </div>
                     <div class="text-left my-5">
                         <div class="row">
@@ -131,11 +131,16 @@
                             permiten
                             tener identidad y guía en la toma de decisiones y creemos firmemente en:
                         <ul class="text-left text-muted my-2">
-                            <li>Gratitud</li>
-                            <li>Honestidad</li>
-                            <li>Esfuerzo</li>
-                            <li>Compromiso</li>
-                            <li>Respeto</li>
+                            <li class="font-weight-bold">Servicio y compromiso</li>
+                            <p>Nos exigimos, la calidad en nuestros servicios. Estamos obsesionados con la responsabilidad para transmitir seguridad por nuestro trabajo.</p>
+                            <li class="font-weight-bold">Profesionalismo</li>
+                            <p>Contamos con el conocimiento y la experiencia que requiere cada obra y/o proyecto</p>
+                            <li class="font-weight-bold">Trabajo en equipo</li>
+                            <p>Estamos convencidos que trabajar de esta manera multiplica los resultados y asegura el logro de los objetivos.</p>
+                            <li class="font-weight-bold">Flexibilidad</li>
+                            <p>Generamos la mejor solución en tiempo y forma para las empresas que nos contratan.</p>
+                            <li class="font-weight-bold">Confianza</li>
+                            <p>Trabajamos con transparencia y respeto haciendo de la confianza nuestro valor diferencial y mas preciado.</p>
                         </ul>
                         </p>
                     </div>
@@ -428,7 +433,7 @@
                                     <i class="fas fa-plus fa-3x"></i>
                                 </div>
                             </div>
-                            <img class="img-fluid" src="assets/img/descargas/29_2.jfif" alt="" />
+                            <img class="img-fluid" src="assets/img/descargas/31_2.jpg" alt="Mantenimiento" />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Mantenimiento</div>
@@ -442,7 +447,7 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/descargas/27.jpg" alt="" />
+                            <img class="img-fluid" src="assets/img/descargas/30.jpg" alt="Proyectos Arquitéctonicos" />
                         </a>
                         <div class="portfolio-caption">
                             <div class="portfolio-caption-heading">Proyectos Arquitéctonicos</div>
@@ -576,58 +581,118 @@
     <section class="page-section" id="contact">
         <div class="container footer-form px-4 py-4">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">
-                    <a>Contácto & Bolsa de Trabajo</a>
+                <h2 class="section-heading text-uppercase text-option">
+                    <a class="text-decoration-none text-white" data-toggle="collapse" href="#collapseOne">Contácto </a>
+                    &
+                    <a class="text-decoration-none text-white" data-toggle="collapse" href="#collapseTwo"> Bolsa de Trabajo</a>
                 </h2>
-                <h6 class="section-subheading text-muted text-white mb-4">
+                <h6 class="section-subheading mb-4">
                     <p class="text-almost-white"><i class="fa fa-map-marker"></i>
                         Privada del Tejocote Norte No. 2520<br />
                         Col. Casa Blanca Metepec Edo. de México c.p 52175
                     </p>
                 </h6>
             </div>
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                <div class="row align-items-stretch mb-5">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingresa tu nombre." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="email" type="email" placeholder="Correo *" required="required" data-validation-required-message="Ingresa tu correo electrónico." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" required="required" data-validation-required-message="Ingresa tu número de teléfono." />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group">
-                            <input class="form-control" id="puesto" type="text" placeholder="Puesto deseado (Opcional)" />
-                            <p class="help-block text-danger"></p>
-                        </div>
-                        <div class="form-group mb-md-0">
-                            <div class="input-group input-file mt-n5" name="Fichero">
-                                <input class="form-control" type="text" placeholder='Seleccionar archivo... (Opcional)' />
-                                <span class="input-group-btn">
-                                    <button class="btn btn-primary btn-lg input-group-btn btn-choose" type="button">
-                                        Examinar
-                                    </button>
-                                </span>
+            <div id="accordion">
+                <div class="my-3">
+                    <div class="row">
+                        <span class="col btn btn-primary btn-xl mb-4 mx-2" data-toggle="collapse" href="#collapseOne">
+                            <i class="align-middle fas fa-envelope fa-2x"></i>
+                            <a class="align-middle text-decoration-none text-white">Contacto</a>
+                        </span>
+                        <span class="col btn btn-primary btn-xl mb-4 mx-2" data-toggle="collapse" href="#collapseTwo">
+                            <i class="align-middle fas fa-briefcase fa-2x"></i>
+                            <a class="align-middle text-decoration-none text-white">Bolsa de Trabajo</a>
+                        </span>
+                    </div>
+                    <div id="collapseOne" class="collapse" data-parent="#accordion">
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                            <div class="row align-items-stretch mb-5">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingresa tu nombre." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="email" type="email" placeholder="Correo *" required="required" data-validation-required-message="Ingresa tu correo electrónico." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group mb-md-0">
+                                        <input class="form-control" id="phone" type="tel" placeholder="Teléfono *" required="required" data-validation-required-message="Ingresa tu número de teléfono." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group form-group-textarea mb-md-0">
+                                        <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Ingresa un mensaje."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="form-group form-group-textarea mb-md-0">
-                            <textarea class="form-control" id="message" placeholder="Mensaje *" required="required" data-validation-required-message="Ingresa un mensaje."></textarea>
-                            <p class="help-block text-danger"></p>
-                        </div>
+                            <div class="text-center">
+                                <div id="success"></div>
+                                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">ENVIAR</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-                <div class="text-center">
-                    <div id="success"></div>
-                    <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">ENVIAR</button>
+                <div class="my-3">
+                    <div id="collapseTwo" class="collapse my-3" data-parent="#accordion">
+                        <form id="contactForm2" name="sentMessage" novalidate="novalidate">
+                            <div class="row align-items-stretch mb-5">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <input class="form-control" id="name2" type="text" placeholder="Nombre *" required="required" data-validation-required-message="Ingresa tu nombre." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="email2" type="email" placeholder="Correo *" required="required" data-validation-required-message="Ingresa tu correo electrónico." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="phone2" type="tel" placeholder="Teléfono *" required="required" data-validation-required-message="Ingresa tu número de teléfono." />
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control" id="puesto2" type="text" placeholder="Puesto deseado *" required="required" data-validation-required-message="Ingresa el puesto solicitado."/>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                    <div class="form-group mb-md-0">
+                                        <div class="input-group input-file mt-n5" name="Fichero">
+                                            <input class="form-control" type="text" placeholder='Seleccionar archivo... *' required="required" data-validation-required-message="Ingresa tu cv en pdf."/>
+                                            <span class="input-group-btn">
+                                                <button class="btn btn-primary btn-lg input-group-btn btn-choose" type="button">
+                                                    Examinar
+                                                </button>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group form-group-textarea mb-md-0">
+                                        <textarea class="form-control" id="message2" placeholder="Mensaje *" required="required" data-validation-required-message="Ingresa un mensaje."></textarea>
+                                        <p class="help-block text-danger"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="section-subheading text-center">
+                                <div class="form-check my-4 mt-0">
+                                    <input class="" type="checkbox" value="" id="AvisoPrivacidadCheck" required="required" data-validation-required-message="Lee y autoriza el aviso de privacidad."/>
+                                    <label class="form-check-label text-almost-white" for="AvisoPrivacidadCheck">
+                                        He leído y autorizo el
+                                        <a class="portfolio-link" data-toggle="modal" href="#modalAvisoPrivacidad">
+                                            aviso de privacidad
+                                        </a>
+                                    </label>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div id="success2"></div>
+                                <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton2" type="submit">ENVIAR</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-            </form>
+            </div>
         </div>
     </section>
     <!-- Footer-->
@@ -779,6 +844,48 @@
             </div>
         </div>
     </div>
+    <!--Aviso de privacidad-->
+    <div class="portfolio-modal modal fade" id="modalAvisoPrivacidad" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="my-5 mx-5">
+                    <div class="close-modal" data-dismiss="modal">
+                        <img src="assets/img/close-icon.svg" alt="Close Modal" />
+                    </div>
+                    <h4 class="card-title mb-4">
+                        Aviso de Privacidad
+                    </h4>
+                    <h6 class="text-muted section-subheading text-almost-white text-justify">En cumplimiento a la Federación la Ley Federal de Protección de Datos Personales en Posesión de los Particulares,
+                        a través de la cual se protege cualquier operación que se realice con los datos de personas físicas,
+                        con el propósito de evitar que sean utilizados con una finalidad distinta para la cual fueron proporcionados.
+                        Nosotros como responsables de la información que ha proporcionado a la empresa,
+                        tenemos la obligación de darle a conocer los elementos con los que contamos para garantizar su confidencialidad,
+                        los fines para los que la utilizamos, y los medios que ponemos a su disposición para que ejerza los derechos de acceso,
+                        rectificación, cancelación u oposición de tus datos.<br/>
+                        Por lo anterior, nos permitimos informarle que Construcciones EMCO, S.A. de C.V., (en lo sucesivo el "EMCO"),
+                        señalando para efectos del presente Aviso de Privacidad el domicilio ubicado en el tejocote norte No. 2520,
+                        col. Casa blanca, Metepec, Estado de México, C.P. 52175, será el responsable de los datos personales que han sido o sean proporcionados.
+                        La información de sus datos personales y/o datos sensibles, tal como: nombre, domicilio, mail, teléfono, RFC,
+                        alta de la SHCP, identificación oficial, copia de estados de cuenta,
+                        entre otras; que es recolectada por EMCO de manera directa de su Titular con su pleno consentimiento,
+                        tendrá el uso que en forma enunciativa pero no limitativa se describe a continuación:
+                        <ol class="c mt-3 col-md-4">
+                            <li>Identificarle</li>
+                            <li>Ubicarle</li>
+                            <li>Comunicarle</li>
+                            <li>Contactarle</li>
+                            <li>Enviarle información</li>
+                            <li>Estadística</li>
+                            <li>Cumplimiento a la legislación vigente</li>
+                            <li>Cumplimiento a las obligaciones derivadas de 
+                                la relación comercial y en general todas aquellas 
+                                referentes a la relación jurídica que le vinculara con EMCO.</li>
+                        </ol>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -787,6 +894,7 @@
     <!-- Contact form JS-->
     <script src="assets/mail/jqBootstrapValidation.js"></script>
     <script src="assets/mail/contact_me.js"></script>
+    <script src="assets/mail/bolsa_trabajo.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="js/tilt.jquery.js"></script>

@@ -3503,11 +3503,11 @@ input[type=button].btn-block {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before {
-    background-color: rgba(254, 209, 54, 0.5);
+    background-color: var(--primaryEmphasis);
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label::before {
-    background-color: rgba(254, 209, 54, 0.5);
+    background-color: var(--primaryEmphasis);
 }
 
 .custom-radio .custom-control-label::before {
@@ -4141,7 +4141,7 @@ input[type=button].btn-block {
     }
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200.98px) {
     .navbar-expand-lg>.container,
     .navbar-expand-lg>.container-fluid,
     .navbar-expand-lg>.container-sm,
@@ -4153,7 +4153,7 @@ input[type=button].btn-block {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1201px) {
     .navbar-expand-lg {
         flex-flow: row nowrap;
         justify-content: flex-start;
@@ -7809,6 +7809,11 @@ button.bg-dark:focus {
     padding-left: 0.25rem !important;
 }
 
+.pl-n1,
+.px-n1 {
+    padding-left: -0.25rem !important;
+}
+
 .p-2 {
     padding: 0.5rem !important;
 }
@@ -7831,6 +7836,11 @@ button.bg-dark:focus {
 .pl-2,
 .px-2 {
     padding-left: 0.5rem !important;
+}
+
+.pl-n2,
+.px-n2 {
+    padding-left: -0.5rem !important;
 }
 
 .p-3 {
@@ -7857,6 +7867,11 @@ button.bg-dark:focus {
     padding-left: 1rem !important;
 }
 
+.pl-n3,
+.px-n3 {
+    padding-left: -1rem !important;
+}
+
 .p-4 {
     padding: 1.5rem !important;
 }
@@ -7881,6 +7896,11 @@ button.bg-dark:focus {
     padding-left: 1.5rem !important;
 }
 
+.pl-n4,
+.px-n4 {
+    padding-left: -1.5rem !important;
+}
+
 .p-5 {
     padding: 3rem !important;
 }
@@ -7903,6 +7923,11 @@ button.bg-dark:focus {
 .pl-5,
 .px-5 {
     padding-left: 3rem !important;
+}
+
+.pl-n5,
+.px-n5 {
+    padding-left: -3rem !important;
 }
 
 .m-n1 {
@@ -10292,56 +10317,68 @@ section#contact .section-heading {
     color: #fff;
 }
 
-section#contact form#contactForm .form-group {
+section#contact form#contactForm .form-group,
+section#contact form#contactForm2 .form-group {
     margin-bottom: 1.5rem;
 }
 
 section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
+section#contact form#contactForm2 .form-group input,
+section#contact form#contactForm .form-group textarea,
+section#contact form#contactForm2 .form-group textarea {
     padding: 1.25rem;
 }
 
-section#contact form#contactForm .form-group input.form-control {
+section#contact form#contactForm .form-group input.form-control,
+section#contact form#contactForm2 .form-group input.form-control {
     height: auto;
 }
 
-section#contact form#contactForm .form-group-textarea {
+section#contact form#contactForm .form-group-textarea,
+section#contact form#contactForm2 .form-group-textarea {
     height: 100%;
 }
 
-section#contact form#contactForm .form-group-textarea textarea {
+section#contact form#contactForm .form-group-textarea textarea,
+section#contact form#contactForm2 .form-group-textarea textarea {
     height: 100%;
     min-height: 10rem;
 }
 
-section#contact form#contactForm p.help-block {
+section#contact form#contactForm p.help-block,
+section#contact form#contactForm2 p.help-block {
     margin: 0;
 }
 
-section#contact form#contactForm .form-control:focus {
+section#contact form#contactForm .form-control:focus,
+section#contact form#contactForm2 .form-control:focus {
     border-color: var(--primary);
     box-shadow: none;
 }
 
-section#contact form#contactForm ::-webkit-input-placeholder {
+section#contact form#contactForm ::-webkit-input-placeholder,
+section#contact form#contactForm2 ::-webkit-input-placeholder {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     color: #ced4da;
 }
 
-section#contact form#contactForm :-moz-placeholder {
+section#contact form#contactForm :-moz-placeholder,
+section#contact form#contactForm2 :-moz-placeholder {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     color: #ced4da;
 }
 
-section#contact form#contactForm ::-moz-placeholder {
+section#contact form#contactForm ::-moz-placeholder,
+section#contact form#contactForm2 ::-moz-placeholder {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     color: #ced4da;
 }
 
-section#contact form#contactForm :-ms-input-placeholder {
+section#contact form#contactForm :-ms-input-placeholder,
+section#contact form#contactForm2 :-ms-input-placeholder {
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-weight: 700;
     color: #ced4da;
@@ -10391,7 +10428,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     .nosotros-img {
         margin: -6rem;
         margin-right: 6rem;
-        background-image: url("../assets/img/descargas/14.jpg");
+        background-image: url("../assets/img/descargas/34.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -10405,4 +10442,8 @@ section#nosotros .containerNos {
 
 .custom-file-input~.custom-file-label::after {
     content: "  Examinar  ";
+}
+
+ol.c {
+    list-style-type: upper-roman;
 }
