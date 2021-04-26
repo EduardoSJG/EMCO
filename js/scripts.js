@@ -59,8 +59,9 @@ function bs_input_file() {
         function() {
             if (!$(this).prev().hasClass('input-ghost')) {
                 var element = $("<input id='archivo' type='file' class='input-ghost' " +
-                    "style='visibility:hidden; height:0px;' " +
-                    "data-validation-required-message='Ingresa tu cv en pdf.'>");
+                    "style='visibility:hidden; height:0px;' " + "required='required' " +
+                    "data-validation-required-message='Ingresa tu cv en pdf.'>" +
+                    "<p class='help-block text-danger'></p>");
                 element.attr("name", $(this).attr("name"));
                 element.change(function() {
                     element.next(element).find('input').val((element.val()).split('\\').pop());

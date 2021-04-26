@@ -2,6 +2,7 @@ $(function() {
     $(
         "#contactForm2 input,#contactForm2 textarea,#contactForm2 button"
     ).jqBootstrapValidation({
+
         preventSubmit: true,
         submitError: function($form, event, errors) {
             // additional error messages or events
@@ -15,6 +16,7 @@ $(function() {
             var puesto = $("input#puesto").val();
             var archivo = $("input#archivo").val();
             var message = $("textarea#message").val();
+            var checkbox = $("input#avisoPrivacidadCheck").val();
             var firstName = name; // For Success/Failure Message
             // Check for white space in name for Success/Fail message
             if (firstName.indexOf(" ") >= 0) {
@@ -32,6 +34,7 @@ $(function() {
                     puesto: puesto,
                     archivo: archivo,
                     message: message,
+                    checkbox: checkbox,
                 },
                 cache: false,
                 success: function() {

@@ -25,8 +25,8 @@
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">Construcciones EMCO</a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">CONSTRUCCIONES EMCO</a>
+            <button class="navbar-toggler text-uppercase navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
                 <i class="fas fa-bars ml-1"></i>
             </button>
@@ -64,7 +64,7 @@
                     <div class="text-muted my-5 text-justify txt-sz-120">
                         <p class="mb-1">Somos una empresa con 20 años de trayectoría en el mercado.</p>
                         <p class="mb-1">Nos caracterizamos por la atención personalizada y la supervisión constante en la ejecución integral de obras y proyectos.</p>
-                        <p class="mb-1">Generamos confianza en todo lo que hacemos logrando que nuestros clientes nos recomienden y vuelvan a elegir</p>
+                        <p class="mb-1">Generamos confianza en todo lo que hacemos logrando que nuestros clientes nos recomienden y vuelvan a elegir.</p>
                     </div>
                     <div class="text-left my-5">
                         <div class="row">
@@ -85,7 +85,7 @@
                             Construcciones EMCO es una empresa especializada en mantenimiento industrial
                             y obra civil, nos apasiona el poder atender las necesidades de cada uno de
                             nuestros clientes a través de nuestra política de servicio uno a uno,
-                            cumpliendo además con estándares altos de calidad.
+                            cumpliendo además con estándares altos de calidad.<br/>
                             Nuestro personal es parte fundamental dentro de la compañia donde cada uno
                             de ellos debe ser valorado como un elemento único.
                         </p>
@@ -106,9 +106,18 @@
                         </div>
                         <hr />
                         <p class="text-muted my-0 text-justify txt-sz-110">
-                            Posicionamos en el mercado como empresa líder en mantenimiento y obra civil
-                            siendo reconocida por su compromiso, responsabilidad, eficacia, calidad y
-                            mejores costos, logrando la satisfacción de nuestros clientes.
+                            Posicionarnos en el mercado como empresa líder en mantenimiento y obra civil
+                            siendo reconocida por: 
+                            <ul class="text-left text-muted my-2 txt-sz-110">
+                                <li>Compromiso</li>
+                                <li>Responsabilidad</li>
+                                <li>Eficacia</li>
+                                <li>Calidad</li>
+                                <li>Mejores costos</li>
+                            </ul>
+                            <p class="text-muted my-0 text-justify txt-sz-110">
+                            logrando la satisfacción de nuestros clientes.
+                            </p>
                         </p>
                     </div>
                     <div class="text-left my-5">
@@ -129,17 +138,17 @@
                         <p class="text-muted my-0 text-justify txt-sz-110">
                             Los valores para Construcciones EMCO son nuestros pilares y los que nos
                             permiten
-                            tener identidad y guía en la toma de decisiones y creemos firmemente en:
+                            tener identidad y guía en la toma de decisiones creyendo firmemente en:
                         <ul class="text-left text-muted my-2">
-                            <li class="font-weight-bold">Servicio y compromiso</li>
+                            <li class="font-weight-bold txt-sz-110">Servicio y compromiso</li>
                             <p>Nos exigimos, la calidad en nuestros servicios. Estamos obsesionados con la responsabilidad para transmitir seguridad por nuestro trabajo.</p>
-                            <li class="font-weight-bold">Profesionalismo</li>
-                            <p>Contamos con el conocimiento y la experiencia que requiere cada obra y/o proyecto</p>
-                            <li class="font-weight-bold">Trabajo en equipo</li>
+                            <li class="font-weight-bold txt-sz-110">Profesionalismo</li>
+                            <p>Contamos con el conocimiento y la experiencia que requiere cada obra y/o proyecto.</p>
+                            <li class="font-weight-bold txt-sz-110">Trabajo en equipo</li>
                             <p>Estamos convencidos que trabajar de esta manera multiplica los resultados y asegura el logro de los objetivos.</p>
-                            <li class="font-weight-bold">Flexibilidad</li>
+                            <li class="font-weight-bold txt-sz-110">Flexibilidad</li>
                             <p>Generamos la mejor solución en tiempo y forma para las empresas que nos contratan.</p>
-                            <li class="font-weight-bold">Confianza</li>
+                            <li class="font-weight-bold txt-sz-110">Confianza</li>
                             <p>Trabajamos con transparencia y respeto haciendo de la confianza nuestro valor diferencial y mas preciado.</p>
                         </ul>
                         </p>
@@ -174,7 +183,7 @@
             <div class="col-md-6 bg-light">
                 <div class="container">
                     <div class="container">
-                        <div class="map">
+                        <div class="map" data-tilt>
                             <div class="map__image">
                                 <!-- (c) ammap.com | SVG map of Mexico -->
                                 <svg id="mapa" xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" preserveAspectRatio="xMidYMid meet" viewbox="30 60 800 550">
@@ -417,10 +426,10 @@
                             <div class="portfolio-hover">
                                 <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/descargas/24.jfif" alt="Naves de Producción" />
+                            <img class="img-fluid" src="assets/img/descargas/04.png" alt="Naves de Producción" />
                         </a>
                         <div class="portfolio-caption">
-                            <div class="portfolio-caption-heading">Obra Civil</div>
+                            <div class="portfolio-caption-heading">Ingeniería Civil</div>
                             <!--<div class="portfolio-caption-subheading text-muted">Suandy - 2019</div>-->
                         </div>
                     </div>
@@ -670,15 +679,15 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group form-group-textarea mb-md-0">
-                                        <textarea class="form-control" id="message2" placeholder="Mensaje *" required="required" data-validation-required-message="Ingresa un mensaje."></textarea>
+                                        <textarea class="form-control" id="message2" type="text" placeholder="Mensaje *" required="required" data-validation-required-message="Ingresa un mensaje."></textarea>
                                         <p class="help-block text-danger"></p>
                                     </div>
                                 </div>
                             </div>
                             <div class="section-subheading text-center">
-                                <div class="form-check my-4 mt-0">
-                                    <input class="" type="checkbox" value="" id="AvisoPrivacidadCheck" required="required" data-validation-required-message="Lee y autoriza el aviso de privacidad."/>
-                                    <label class="form-check-label text-almost-white" for="AvisoPrivacidadCheck">
+                                <div class="my-4 mt-0">
+                                    <input id="avisoPrivacidadCheck" type="checkbox" placeholder="Checkbox *" required="required" data-validation-required-message="Autoriza el aviso de privacidad."/>
+                                    <label class="form-check-label text-almost-white" for="avisoPrivacidadCheck">
                                         He leído y autorizo el
                                         <a class="portfolio-link" data-toggle="modal" href="#modalAvisoPrivacidad">
                                             aviso de privacidad
@@ -700,15 +709,26 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-4 text-lg-left text-white my-0">
-                    <p><a href="https://wa.me/527222113636">722 211 36 36</a></p>
-                    <p><a href="https://wa.me/527223792071">722 379 20 71</a></p>
+                    <p>
+                        <i class="fab fa-whatsapp color-primary"></i>
+                        <a href="https://wa.me/527222113636">722 211 36 36</a>
+                    </p>
+                    <p>
+                        <i class="fab fa-whatsapp color-primary"></i>
+                        <a href="https://wa.me/527223792071">722 379 20 71</a>
+                    </p>
                 </div>
                 <div class="col-lg-4 my-3 my-lg-0 text-white">
-                    <p>Construcciones Emco S.A de C.V ®</p>
+                    <p>Construcciones EMCO S.A de C.V ®</p>
                 </div>
                 <div class="col-lg-4 text-lg-right my-0">
-                    <p><a href="mailto:emcogerenciann@gmail.com?Subject=Contacto%20Web">emcogerenciann@gmail.com</a></p>
-                    <p><a href="mailto:construccionesgdladmon@gmail.com?Subject=Contacto%20Web">construccionesgdladmon@gmail.com</a>
+                    <p>
+                        <a href="mailto:emcogerenciann@gmail.com?Subject=Contacto%20Web">emcogerenciann@gmail.com</a>
+                        <i class="fas fa-envelope color-primary"></i>
+                    </p>
+                    <p>
+                        <a href="mailto:construccionesgdladmon@gmail.com?Subject=Contacto%20Web">construccionesgdladmon@gmail.com</a>
+                        <i class="fas fa-envelope color-primary"></i>
                     </p>
                 </div>
             </div>
@@ -898,6 +918,8 @@
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
     <script src="js/tilt.jquery.js"></script>
+    <!-- Custom JS-->
+    <script></script>
 </body>
 
 </html>

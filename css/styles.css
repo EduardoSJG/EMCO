@@ -10428,7 +10428,7 @@ section#contact form#contactForm2 :-ms-input-placeholder {
     .nosotros-img {
         margin: -6rem;
         margin-right: 6rem;
-        background-image: url("../assets/img/descargas/34.jpg");
+        background-image: url("../assets/img/descargas/11.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -10446,4 +10446,8 @@ section#nosotros .containerNos {
 
 ol.c {
     list-style-type: upper-roman;
+}
+
+.color-primary {
+    color: var(--primary);
 }
